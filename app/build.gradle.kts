@@ -3,7 +3,7 @@
  */
 
 plugins {
-    id("Algorithms.kotlin-application-conventions")
+    id("algorithms.kotlin-application-conventions")
 }
 
 dependencies {
@@ -13,5 +13,5 @@ dependencies {
 
 application {
     // Define the main class for the application.
-    mainClass.set("Algorithms.app.AppKt")
+    mainClass.set("algorithms.app.AppKt")
 }
